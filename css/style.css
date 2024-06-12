@@ -1,123 +1,98 @@
-*{
-    margin: 0;
-    padding: 0;
-}
 
-
-.mogra-regular {
-    font-family: "Mogra", system-ui;
-    font-weight: 400;
-    font-style: normal;
-    }
-
-
-body {
-    background-color:white;
-    font-family: "Mogra", system-ui;
-    font-weight: 400;
-    font-style: normal;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 3px solid #FA6859;
-    align-items: center;
-    padding: 2px;
-
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px solid #FA6859;
+  align-items: center;
+  padding: 2px;
+  font-family: Arial, Helvetica, sans-serif;
 }
-header nav ul a{
-    font-size: 25px;
-    color: rgb(174, 108, 196);
+header nav ul a {
+  font-size: 25px;
+  color: rgb(174, 108, 196);
+  margin: 10px;
+  text-decoration: none;
 }
-header nav ul a{
-    margin: 10px;
-    text-decoration: none;
-    
+header div {
+  align-items: center;
 }
-
-header nav ul a div{
-    align-items: center;
+header .compra {
+  width: 55px;
 }
-   
-header div img{
-    width: 45px;
+header .logo-marca {
+  width: 60px;
 }
-.logo-marca{
-            width: 350px;
+header a:hover {
+  color: rgb(250, 104, 89);
 }
 
-a:hover{
-    color: rgb(250, 104, 89);
+body {
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body .qs {
+  border: 5px;
+  border-style: double;
+  border-color: rgb(111, 17, 199);
+}
+body .qs h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-stretch: normal;
+  margin-top: 10px;
+  text-align: center;
+  color: #FA6859;
+}
+body .qs p {
+  text-align: center;
+  font-size: 25px;
+  color: rgb(254, 184, 54);
+  margin: 5px;
+}
+body .card {
+  margin-top: 15px;
+  border: none;
+}
+body .card p {
+  text-align: center;
+}
+body .d-flex {
+  justify-content: space-around;
+  padding: 10px;
+}
+body .contacto {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 45px;
+  background-color: rgb(226, 157, 178);
+  margin: 20px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+body .contacto h2 {
+  font-size: 35px;
 }
 
-.qs {
-    font-family: "Mogra", system-ui;
-    font-stretch: normal;
-    border: 5px;
-    border-style: dashed;
-    border-color: bisque;
-    margin-top: 10px;
+footer {
+  background-color: white;
+  align-items: center;
+  color: white;
 }
-.qs h2{
-    text-align: center;
-    color: #FA6859;
-    align-items: center;
+footer p {
+  color: rgb(250, 104, 89);
+  font-size: 50px;
+  text-align: center;
 }
-.qs p{
-    text-align: center;
-    font-size: 25px;
-    color: rgb(254, 184, 54);
-    margin: 5px;
+footer .pagos {
+  size: 7px;
+  justify-content: space-around;
+  padding: 10px;
 }
 
-.card {
-        margin-top: 8px;
-        border: none;
-}
-
-.card p{
-        text-align: center;
-}
-.d-flex {
-        justify-content: space-around;
-        padding: 10px;
-}
-
-.contacto {
-        font-family: Arial, Helvetica, sans-serif;
-        padding: 45px;
-        background-color: rgb(226, 157, 178);
-        margin: 20px;
-       
-}
-
-.contacto{
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    
-    
-}
-
-.contacto h2{
-    font-size: 35px;
-}
-
-footer{
-    background-color: white;
-    align-items: center;
-    color: white;
-}
-footer p{
-    color: rgb(250, 104, 89);
-    font-size: 50px;
-    text-align: center;
-}
-
-footer img{
-    size: 15px;
-    margin: 10px;
-    justify-content: center;
-
-}
+/*# sourceMappingURL=style.css.map */
