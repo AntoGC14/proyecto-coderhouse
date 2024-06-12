@@ -17,8 +17,8 @@
   <nav>
       <ul>
           <a href="#quienessomos">¿Quiénes somos?</a>
-          <a href="HTML/vans.html">VANS</a>
-          <a href="HTML/buzos.html">BUZOS</a>
+          <a href="html/vans.html">VANS</a>
+          <a href="html/buzos.html">BUZOS</a>
           <a href="#contacto">CONTACTO</a>
           <a href="https://maps.app.goo.gl/ZEQEMFaunuWF3uA57">¿Dónde estamos?</a>
 
@@ -31,72 +31,70 @@
 </header>
 
 <body>
-    
-    
-    <!-- carrusel -->
-    <section>
-        <div id="carouselExample" class="carousel slide">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="images/vans-botstrap.png" class="d-block w-100" alt="vans clasicas">
-            </div>
-            <div class="carousel-item">
-              <img src="images/vans-botstrap3.png" class="d-block w-100" alt="Vans cuadrados">
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+   <!-- carrusel -->
+   <section>
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/vans-botstrap.png" class="d-block w-100" alt="vans clasicas">
         </div>
-      </section>
+        <div class="carousel-item">
+          <img src="images/vans-botstrap3.png" class="d-block w-100" alt="Vans cuadrados">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
 
-         
-    <div class="qs">
-      <h2 id="quienesomos">Quienes Somos?</h2> 
-      <p>Somos dos amantes de la ropa urbana y queremos que todos encuentren su estilo. Acá intentaremos ayudarte con nuestro catálogo...</p>
+  
+
+  <!-- tajetas -->
+  <section class="d-flex">
+    <div class="card" style="width: 18rem;">
+      <img src="images/buzos-ripcurl.jpg" class="card-img-top" alt="buzos rip curl">
+      <div class="card-body">
+        <p class="card-text">Oversize - Unisex - Diversos colores</p>
+        
+      </div>
     </div>
 
-      <!-- tajetas -->
-     <section class="d-flex">
-      <div class="card" style="width: 18rem;">
-        <img src="images/vans-negras.PNG" class="card-img-top" alt="vansnegras">
-        <div class="card-body">
-          <p class="card-text">Vans Classic - Negras</p>
-          
-        </div>
+    <div class="card" style="width: 18rem;">
+      <img src="images/remera-vans-negra.PNG" class="card-img-top" alt="remenegra">
+      <div class="card-body">
+        <p class="card-text">100% algodón - Talles variados.</p>
       </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="images/buzo-vans.jpg" class="card-img-top" alt="buzo vans">
+      <div class="card-body">
+        <p class="card-text">Oversize - Colores: negro, blanco, azul - frizados.</p>
+      </div>
+    </div>
 
-      <div class="card" style="width: 18rem;">
-        <img src="images/nike-air.PNG" class="card-img-top" alt="vansnegras">
-        <div class="card-body">
-          <p class="card-text">Nike Air en varios colores.</p>
-        </div>
-      </div>
-      <div class="card" style="width: 18rem;">
-        <img src="images/remera-vans-negra.PNG" class="card-img-top" alt="remenegra">
-        <div class="card-body">
-          <p class="card-text">Remera negra clásica, 100% algodón.</p>
-        </div>
-      </div>
-
-     </section> 
+   </section>
     
+   <div class="qs">
+    <h2 id="quienesomos">Quienes Somos?</h2> 
+    <p>Somos dos amantes de la ropa urbana y queremos que todos encuentren su estilo. Acá intentaremos ayudarte con nuestro catálogo...</p>
+  </div>
    
 
-
+ 
 <section class="contacto">
 
 
   <div class="ctc">
       <h2 id="contacto">CONTACTO</h2>
-      <img src="images/icons8-whatsapp-64.png" alt="Logo Whatsapp">
+      <img src="images/icons8-whatsapp-64.png" alt="Logo Whatsapp" class="wp">
       <p>15-6560-1111</p>
-      <img src="images/icons8-gmail-nuevo-48.png" alt="Logo Gmail">
+      <img src="images/icons8-gmail-nuevo-48.png" alt="Logo Gmail" class="gmail">
       <p>puro_movimiento@gmail.com</p>
   </div>
 
@@ -118,10 +116,13 @@
 
 <footer>
   <p>MEDIOS DE PAGO</p>
-  <img src="images/logo-mp.png" alt="Mercado Pago">
-  <img src="images/logo-ms.png" alt="Mastercard">
-  <img src="images/logo-visa.png" alt="Visa">
- 
+  <div class="pagos">
+    <img src="images/logo-mp.png" alt="Mercado Pago">
+    <img src="images/logo-ms.png" alt="Mastercard">
+    <img src="images/logo-visa.png" alt="Visa">
+   
+  </div>
+
 </footer>
 
 </body>
