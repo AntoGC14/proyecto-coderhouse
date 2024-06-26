@@ -4,79 +4,39 @@
   padding: 0;
 }
 
-header {
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body .promo p {
+  background-color: aquamarine;
+  text-align: center;
+  color: #DDAC67;
+}
+body header {
   display: flex;
   justify-content: space-between;
-  border-bottom: 3px solid #FA6859;
   align-items: center;
   padding: 2px;
-  font-family: Arial, Helvetica, sans-serif;
 }
-header nav ul a {
+body header .logomarca {
+  width: 350px;
+}
+body header nav ul a {
   font-size: 25px;
   color: rgb(174, 108, 196);
   margin: 10px;
   text-decoration: none;
 }
-header div {
-  align-items: center;
-}
-header .compra {
-  width: 55px;
-}
-header .logo-marca {
-  width: 60px;
-}
-header a:hover {
+body header nav ul a :hover {
   color: rgb(250, 104, 89);
 }
-
-body {
-  background-color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 400;
-  font-style: normal;
+body header nav ul a div {
+  align-items: center;
 }
-body .qs {
-  border: 5px;
-  border-style: double;
-  border-color: rgb(111, 17, 199);
-}
-body .qs h2 {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-stretch: normal;
-  margin-top: 10px;
-  text-align: center;
-  color: #FA6859;
-}
-body .qs p {
-  text-align: center;
-  font-size: 25px;
-  color: rgb(254, 184, 54);
-  margin: 5px;
-}
-body .card {
-  margin-top: 15px;
-  border: none;
-}
-body .card p {
-  text-align: center;
-}
-body .d-flex {
-  justify-content: space-around;
-  padding: 10px;
-}
-body .contacto {
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 45px;
-  background-color: rgb(226, 157, 178);
-  margin: 20px;
-  color: white;
-  display: flex;
-  justify-content: space-around;
-}
-body .contacto h2 {
-  font-size: 35px;
+body header nav ul a div img {
+  width: 350px;
 }
 
 footer {

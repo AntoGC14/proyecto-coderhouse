@@ -6,93 +6,55 @@
     padding: 0;
 }
 
-header{
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 3px solid #FA6859;
-    align-items: center;
-    padding: 2px;
-    font-family:Arial, Helvetica, sans-serif;
-            nav{
-                ul{
-                    a{
-                        font-size: 25px;
-                        color: rgb(174, 108, 196);
-                        margin: 10px;
-                        text-decoration: none;
-                        
-                    }
-                }
-            }
-            div{
-                align-items: center;
-                }
-            .compra{
-                width: 55px;
-            }
-            .logo-marca{
-                width: 60px;
-            }
-            a:hover{
-                color: rgb(250, 104, 89);
-            }
-}
+
 
 body{
-    background-color:white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-style: normal;
-                .qs{
-                    border: 5px;
-                    border-style:double;
-                    border-color: rgb(111, 17, 199);
-                    margin-top: 10px;
-                    h2{
-                    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-                    font-stretch: normal;
-                   
-                    margin-top: 10px;
-                    text-align: center;
-                    color:#FA6859
-                    }
+           
+                .promo{
                     p{
+                        background-color: aquamarine;
                         text-align: center;
-                        font-size: 25px;
-                        color: rgb(254, 184, 54);
-                        margin: 5px;
+                        color: #DDAC67;
+                    }
+                }
+                header{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 2px;
+                
+                    .logomarca{
+                        width: 350px;
+                    }
+                    nav{
+                        ul{
+                            a{
+                                :hover{
+                                    color: rgb(250, 104, 89);
+                                }
+                                font-size: 25px;
+                                color: rgb(174, 108, 196);
+                                margin: 10px;
+                                text-decoration: none;
+                                
+                                        div{
+                                            align-items: center;
+                                                img{
+                                                    width: 350px;
+                                                }
+                                        }
+
+                            }
+                        }
                     }
 
                 }
-                .card{
-                    margin-top: 15px;
-                    border: none;
-                      p{
-                        text-align: center;
-                      }
- 
-                      }
-                .d-flex{
-                        justify-content: space-around;
-                        padding: 10px;
-                }      
-
-                .contacto{
-                    font-family: Arial, Helvetica, sans-serif;
-                    padding: 45px;
-                    background-color: rgb(226, 157, 178);
-                    margin: 20px;
-                    color: white;
-                    display: flex;
-                    justify-content: space-around;
-                            h2{
-                                font-size: 35px;
-                            }
-                            
-                                 
-
-                }
-}
+                
+            }
+                        
 footer{
     background-color: white;
     align-items: center;
@@ -109,4 +71,4 @@ footer{
             
         
         }
-}
+    }

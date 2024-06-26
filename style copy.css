@@ -4,15 +4,6 @@
 }
 
 
-.mogra-regular {
-    font-family: "Mogra", system-ui;
-    font-weight: 400;
-    font-style: normal;
-    }
-
-
-
-
 header {
     display: flex;
     justify-content: space-between;
