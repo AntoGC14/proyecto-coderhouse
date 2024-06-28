@@ -8,16 +8,14 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-style: normal;
+  background-color: white;
 }
 body .promo p {
   background-color: #054630;
   color: white;
   text-align: center;
-}
-body .anuncio p {
-  background-color: #054630;
-  color: white;
-  text-align: center;
+  padding: 0;
+  margin: 0;
 }
 body header {
   display: flex;
@@ -34,7 +32,7 @@ body header nav .container-fluid .logomarca {
 body header nav div ul a {
   text-decoration: none;
   color: #aa0d76;
-  margin-left: 100px;
+  margin-left: 210px;
   font-size: 25px;
   background-color: white;
 }
@@ -44,40 +42,117 @@ body .imagen {
 body .imagen img {
   width: 100%;
 }
-body .imagenes {
-  padding-top: 50px;
-  padding-left: 40px;
-  width: 100%;
-  margin: auto;
+body .contenedor {
+  max-width: fit-content;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 50px;
+  background-color: #dbdbdb;
+  border: 1px solid #ccc;
+}
+body .contenedor .imagenes {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  column-gap: 150px;
-  row-gap: 200px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
 }
-body .imagenes .elemento1 {
+body .contenedor .imagenes .imagen {
+  text-align: center;
+}
+body .contenedor .imagenes .imagen img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+body .contenedor .imagenes .elemento1 {
+  grid-column: span 2;
+}
+
+.redes {
+  background-color: #054630;
+  padding: 20px;
+  margin-top: 50px;
+}
+.redes .contacto1 {
+  display: grid;
+  gap: 10px;
+  justify-content: center;
+}
+.redes .contacto1 p {
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  align-items: center;
+  color: black;
+  text-align: center;
+}
+.redes .contacto1 a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+}
+.redes .contacto1 a p {
+  text-align: justify;
+}
+.redes .contacto1 a img {
+  width: 50px;
+  height: 50px;
+}
+.redes .redes .contacto1 p:last-child {
+  margin-left: auto;
+}
+
+footer {
+  background-color: white;
+  align-items: center;
+  color: #054630;
+  margin-top: 50px;
+}
+footer p {
+  color: rgb(250, 104, 89);
+  font-size: 50px;
+  text-align: center;
+}
+footer .pagos {
+  size: 15px;
+  margin: 10px;
+  justify-content: center;
+}
+
+footer {
+  background-color: white;
+  align-items: center;
+  color: #054630;
+  margin-top: 50px;
+}
+footer p {
+  color: black;
+  font-size: 50px;
+  text-align: center;
+}
+footer .pagos {
+  font-size: 15px;
+  margin: 10px;
+  justify-content: center;
+}
+footer .pagos img {
   width: 150px;
+  height: 150px;
+  align-items: center;
+  margin-left: 350px;
 }
-body .imagenes .elemento2 {
-  width: 190px;
-}
-body .imagenes .elemento3 {
-  width: 260px;
-}
-body .imagenes .elemento4 {
-  width: 270px;
-}
-body .imagenes .elemento5 {
-  width: 250px;
-}
-body .imagenes .elemento6 {
-  width: 250px;
-}
+
 @media only screen and (min-width: 768px) {
-  body body .promo {
+  body .promo {
     display: block;
   }
-  body body header .navbar .container-fluid {
+  body header {
+    align-items: center;
+  }
+  body header .container-fluid {
     display: block;
+    align-items: center;
+    display: flex;
   }
 }
 
